@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./App.css";
 import Contacts from "./Components/Contacts";
 import Nav from "./Components/NavBar";
 import UserProfile from "./Components/UserProfile";
@@ -7,7 +7,7 @@ import Posts from "./Components/Posts";
 
 function App() {
   return (
-    <div>
+    <div className = "app">
       <Nav />
       <UserProfile />
       <Posts />

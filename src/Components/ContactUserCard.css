@@ -1,0 +1,22 @@
+.user-card{
+    border: 1px solid black;
+    display: flex;
+    margin:70px 25px;
+    border-radius: 5px;
+}
+.contact-user__h2{
+    font-size: 20px;
+}
+.contact-user__h3{
+    font-size: 15px;
+}
+
+.contact-user__p{
+    font-size: 12px;
+}
+.user-card__img{
+    height: 116px;
+}
+.user-card__font{
+    margin-left:20px ;
+}

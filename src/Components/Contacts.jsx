@@ -4,7 +4,7 @@ import "./Contacts.css";
 function Contacts (){
     return(
         <div className ="contacts-container">
-            <h1>Contacts</h1>
+            <h1 className ="contacts-container__h1">Contacts</h1>
             <ContactUser />
             <ContactUser />
             <ContactUser />

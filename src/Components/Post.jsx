@@ -1,9 +1,10 @@
+import "./Post.css"
 function Post(){
     return (
-        <>
-            <h1>title</h1>
-            <p>Lorem Ip</p>
-        </>
+        <div className="post-info">
+            <h1 className="post-info__title">title</h1>
+            <p className="post-info__p">Lorem Ip</p>
+        </div>
     )
 }
 
